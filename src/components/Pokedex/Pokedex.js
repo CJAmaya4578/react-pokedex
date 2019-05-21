@@ -1,5 +1,6 @@
 import React from 'react';
-import PokemonSearch from './pokemon-search';
+import PokemonSearch from '../Pokemon-Search/pokemon-search';
+import './Pokedex.css';
 
 function Pokedex() {
   return (

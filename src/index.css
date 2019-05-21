@@ -4,7 +4,24 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-color: #303030;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  font: 12px;
 }
 
+body {
+  height: inherit;
+  width: inherit;
+  margin: 0;   
+}
+
+#root {
+  background-color: #161b25;
+  position: relative;
+  margin: 2vh;
+  height: 96vh;
+  border-radius: 5px;
+}
 

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 import './index.css';
-import Pokedex from './components/Pokedex';
+import Pokedex from './components/Pokedex/Pokedex';
 import store from './store';
 import * as serviceWorker from './serviceWorker';
 
