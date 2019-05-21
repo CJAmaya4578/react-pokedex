@@ -7,7 +7,8 @@ import {
 const initialState = {
     loading: false,
     error: null,
-    pokemon: undefined  
+    pokemon: undefined,
+    pokemonID: 1
 }
 
 export function pokedexReducer(state=initialState, action){
@@ -19,7 +20,8 @@ export function pokedexReducer(state=initialState, action){
     } else if (action.type === SEARCH_POKEMON_SUCCESS){
         console.log(action.pokemon);
         return Object.assign({}, state, {
-            pokemon: action.pokemon,            
+            pokemon: action.pokemon, 
+            pokemonID: action.pokemon.id,
             loading: false,
             error: null            
         });
